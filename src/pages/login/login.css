@@ -1,0 +1,51 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(34, 31, 31, 0.5), rgba(35, 32, 32, 0.5)), url("https://res.cloudinary.com/dq49b0ddj/image/upload/v1674865649/pexels-irina-iriser-943907_bv6ufm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loginTitle{
+    font-size: 50px;
+    color: olive;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm> label {
+    margin: 10px 0;
+    color: olive;
+
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: #fff;
+    width: 450px;
+    border: none;
+}
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color:rgb(143, 128, 240);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginRegisterButton{
+    position:absolute;
+    top:60px;
+    right: 20px;
+    background-color: rgb(115, 0, 128);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}

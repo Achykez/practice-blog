@@ -21,7 +21,7 @@ export const TopBar = () => {
       <div className="top-right">
         <img
           className="topImg"
-          src="https://res.cloudinary.com/dq49b0ddj/image/upload/v1674524192/WhatsApp_Image_2023-01-23_at_11.41.50_oxgmam.jpg"
+          src="https://ca.slack-edge.com/TLB93JX3P-U048Z8N43T4-97c1f1e1a8d1-512"
           alt=""
         />
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
